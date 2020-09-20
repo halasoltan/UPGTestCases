@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<testcases>
+  <testcase1>
+    <name>mina</name>
+  </testcase1>
+  <testcase2>                                   <!--Txt boxes only-->   <!--Add Routes Transaction-->
+    <BIN>147325 </BIN>   <!--ADD changed every run must be 6 chars-->
+  </testcase2>
+  <testcase3>
+    <BIN>147325 </BIN>    <!--Search should be the same above-->
+    </testcase3>
+  
+  <testcase4>
+    <BIN>147325 </BIN>  <!--Delete should be the same above-->
+  </testcase4>
+
+
+  <testcase5>
+    <BIN>111112 </BIN>  <!--value already existed-->
+  </testcase5>
+
+
+  
+   
+</testcases>

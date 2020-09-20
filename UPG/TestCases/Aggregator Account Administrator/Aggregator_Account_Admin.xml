@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<testcases>
+  <testcase1>
+    <name>mina</name>
+  </testcase1>
+  <testcase2>                                   <!--Txt boxes-->
+    <MerchantName>Ragab Son's</MerchantName>
+    <Address1>Bank Faisal ST - Abas ElAkkad</Address1>
+    <AccountNumber> 15 </AccountNumber>
+    <MinTransactionAmount> 100</MinTransactionAmount>
+    <DailyLimitAmount>500</DailyLimitAmount>
+    <MaxTransactionCountDay>100 </MaxTransactionCountDay>
+    <MaxTransactionAmount>20000</MaxTransactionAmount>
+    <MonthlyLimitAmount> 200000 </MonthlyLimitAmount>
+    <FullName> Ragab </FullName>
+    <UserEmail> upg_test@egyptianbanks.net </UserEmail>
+    </testcase2>
+</testcases>

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UPG.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PortalUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://172.16.25.26/Portal/Account/Login</Value>
+    </Setting>
+    <Setting Name="FakePortal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.phptravels.net/login</Value>
+    </Setting>
+    <Setting Name="BrowserInstallionDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Default</Value>
+    </Setting>
+    <Setting Name="Browser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Edge</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
