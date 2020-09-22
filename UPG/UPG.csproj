@@ -63,21 +63,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Operations.cs" />
-    <Compile Include="Pages\AddMerchant.cs" />
+    <Compile Include="Pages\AddMerchantEditRecord.cs" />
     <Compile Include="Pages\AddUserRegisteration.cs" />
+    <Compile Include="Pages\ApproverPipeLine.cs" />
     <Compile Include="Pages\BalanceManagement.cs" />
     <Compile Include="Pages\BanksManagement.cs" />
     <Compile Include="Pages\BillingReport.cs" />
     <Compile Include="Pages\BulkMerchantuploadFileSearch.cs" />
     <Compile Include="Pages\BulkTerminalUpload.cs" />
     <Compile Include="Pages\CommunicationLogReport.cs" />
-	<Compile Include="Pages\DeployTerminalList.cs" />
+    <Compile Include="Pages\CreateBankPage.cs" />
+    <Compile Include="Pages\DeployTerminalList.cs" />
     <Compile Include="Pages\EditRecordUser.cs" />
     <Compile Include="Pages\ExchangeRates.cs" />
     <Compile Include="Pages\ExportFileDownloads.cs" />
     <Compile Include="Pages\HostManagement.cs" />
     <Compile Include="Pages\MerchantBranchAdmin.cs" />
+    <Compile Include="Pages\MerchantBranchManagement.cs" />
     <Compile Include="Pages\MerchantManagementMerchant.cs" />
+    <Compile Include="Pages\MerchantSettlementReport.cs" />
     <Compile Include="Pages\StandardFeesSubscription.cs" />
     <Compile Include="Pages\StandardFeesTransaction.cs" />
     <Compile Include="Pages\SupportTicketsRequests.cs" />
@@ -94,7 +98,7 @@
     <Compile Include="Pages\SupportTickets.cs" />
     <Compile Include="Pages\SystemLogReport.cs" />
     <Compile Include="Pages\SystemMode.cs" />
-	<Compile Include="Pages\TerminalManagementTerminalList.cs" />
+    <Compile Include="Pages\TerminalManagementTerminalList.cs" />
     <Compile Include="Pages\TransactionsRoutesManagement.cs" />
     <Compile Include="Pages\UserStatusReport.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -104,7 +108,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestCases\Aggregator Account Administrator\TC_Aggregator_Account_Admin.cs" />
-    <Compile Include="TestCases\System Admin\TC_System_Admin.cs" />
+    <Compile Include="TestCases\SystemAdministrator\TC_SystemAdministrator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Firefox.config" />
@@ -125,7 +129,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="TestCases\System Admin\System_Admin.xml">
+    <Content Include="TestCases\SystemAdministrator\SystemAdministrator.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

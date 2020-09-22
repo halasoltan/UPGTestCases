@@ -29,7 +29,7 @@ namespace UPG.Pages
         string creationDateStr;
         string parentMerchantStr;
         string documentStr;
-        string merchantNameStr;
+       
         string categoryCodeStr;
         string selectedBankStr;
         string creationDateToStr;
@@ -97,7 +97,7 @@ namespace UPG.Pages
         }
 
         // TODO:  Mina Review   
-        public void SearchByMerchantName()
+        public void SearchByMerchantName(string merchantNameStr)
         {
             workFlowOperations.ClickOnBtn(selectParametersBtnLocator);
             workFlowOperations.ChooseFromDropDown(merchantNameLocator, merchantNameStr);

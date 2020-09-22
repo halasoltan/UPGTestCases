@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<testcases>
+  <testcase27>
+    <UserName>sysadmin</UserName>
+    <Password>1234</Password>
+     <OTP>1111</OTP>
+    <BankName>Awda</BankName>    <!-- to be changed every run-->
+  </testcase27>
+  <testcase442>
+     <BankName>QNB</BankName>
+    <MerchantName>Hyper One</MerchantName>
+    <Address> FreeZone-NasrCity-Cairo</Address>
+     <AccountNumber>152485</AccountNumber>    
+    <AccountType> Bank</AccountType>
+  <MinTransactionAmount>50</MinTransactionAmount>
+  <DailyLimitAmount>10</DailyLimitAmount>
+  <MaxTransCount> 1000 </MaxTransCount>
+    <MaxTransactAmount> 10000</MaxTransactAmount>
+    <MonthlyLimit>  3000  </MonthlyLimit>
+  <FullName>Mohamed Ragab</FullName>
+    <Email> upg_test@egyptianbanks.net</Email>
+    <portalLoginUsername>Contact Person Mobile Number</portalLoginUsername>
+  <NotificationMethod >Both</NotificationMethod> 
+  
+  </testcase442>
+    
+ 
+  
+  
+    
+  <testcase2>                                   <!--Txt boxes only-->   <!--Add Routes Transaction-->
+    <BIN>147325 </BIN>   <!--ADD changed every run must be 6 chars-->
+  </testcase2>
+  <testcase3>
+    <BIN>147325 </BIN>    <!--Search should be the same above-->
+    </testcase3>
+  
+  <testcase4>
+    <BIN>147325 </BIN>  <!--Delete should be the same above-->
+  </testcase4>
+
+
+  <testcase5>
+    <BIN>111112 </BIN>  <!--value already existed-->
+  </testcase5>
+
+
+  
+   
+</testcases>

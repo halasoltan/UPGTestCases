@@ -25,7 +25,7 @@ namespace UPG.Pages
                 { "Banks", By.Id("IndexBanks")},
                 { "Transaction Routes", By.Id("IndexRoutes")},
             { "Merchants Management", By.LinkText(" Merchants Management ")},
-                { "Banks", By.Id("IndexMerchants")},
+                { "Merchants", By.Id("IndexMerchants")},
                 { "Bulk Merchant Upload", By.Id("BulkMerchantMasterSearchMerchants")},
                 { "Branches", By.Id("IndexMerchantBranch")},
 
